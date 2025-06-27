@@ -6,6 +6,7 @@
 \usepackage{enumitem}
 \usepackage{fontawesome5}
 \usepackage{xcolor}
+\usepackage{comment}
 
 \usepackage[margin=1.5cm]{geometry}
 
@@ -62,19 +63,24 @@
 
 \newpage
 \pagenumbering{arabic}
-
+\raggedright
 \section*{\fontspec{TradeWinds-Regular.ttf}What is Martial Mutant Misfitz?}
-\raggedright\normalfont\large You are humanoid animal mutants. Human society rejects you. Your appearance is alien and off-putting to most humans. Fortunately, a mentor came into your life. Taking care of you when you needed it the most. Training you in martial prowess, and teaching you how to leverage your new abilities. A mentor hiding your from society and shielding you from harm. But this could soon end, as a new evil rises, that threatens the city. Who is gonna stop it? Who if not you?!
+\normalfont\large You are humanoid animal mutants. Human society rejects you. Your appearance is alien and off-putting to most humans. Fortunately, a mentor came into your life. Taking care of you when you needed it the most. Training you in martial prowess, and teaching you how to leverage your new abilities. A mentor hiding your from society and shielding you from harm. But this could soon end, as a new evil rises, that threatens the city. Who is gonna stop it? Who if not you?!
 
 Martial Mutant Misfitz is a game about whacky teenagers mutated into animals. It's a game about stylish fighting and kung fu. It also is a game about being an outsider --- he feeling of not fitting into society. And lastly, it's a game about family.
 \newpage
 
-\input{playbooks/brawler.tex}
+\begin{comment}
+\input{playbooks/aberrant.tex}
 \input{playbooks/brainiac.tex}
-\input{playbooks/wildcard.tex}
-\input{playbooks/leader.tex}
+\input{playbooks/brawler.tex}
 \input{playbooks/face.tex}
+\input{playbooks/human.tex}
+\input{playbooks/leader.tex}
+\end{comment}
+\input{playbooks/rebel.tex}
 \input{playbooks/spiritualOne.tex}
 \input{playbooks/supporter.tex}
+\input{playbooks/wildcard.tex}
 
 \end{document}
