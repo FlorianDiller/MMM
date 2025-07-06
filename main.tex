@@ -7,6 +7,7 @@
 \usepackage{fontawesome5}
 \usepackage{xcolor}
 \usepackage{comment}
+\usepackage{tgbonum}
 
 \usepackage[margin=1.5cm]{geometry}
 
@@ -47,7 +48,7 @@
 \newcommand{\flipsideThree}{}
 \newcommand{\flipsideFour}{}
 
-\setmainfont{Arial}
+%\setmainfont{Arial}
 \parindent0mm
 \linespread{1.2}
 
@@ -73,8 +74,6 @@ A game by Florian Diller
 \medskip
 Martial Mutant Misfitz is a game about teenagers mutated into whacky humanoid animals. It's a game about fighting with style and Kung Fu. It also is a game about being an outsider --- the feeling of not fitting into society. And lastly, it's a game about family and finding this feeling of belonging there.
 
-\newpage
-
 \chapter*{\fontspec{TradeWinds-Regular.ttf}Basic Moves}
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Kick Ass!}
@@ -84,6 +83,16 @@ When you fight a foe, roll +Grit.
     \item \textbf{7-9} -- Trade harm.
 \end{itemize}
 
+\section*{\fontspec{TradeWinds-Regular.ttf}Defy Danger}
+When you act despite an imminent threat, roll depending on the type of action:
+\begin{itemize}
+    \item Defending someone or something, Enduring or pushing through, +Grit
+    \item Dodging, +Discipline
+    \item Quick thinking, +Wits
+    \item Doing a stunt, +Style
+\end{itemize}
+On a 10+, your action is successful. On a 7-9 you stumble, hesitate, or botch. The GM will offer you a worse outcome, a hard bargain, or ugly choice. 
+
 \section*{\fontspec{TradeWinds-Regular.ttf}Talk the Talk}
 When you persuade, bluff, or drop a catchphrase, roll +Wits.
 \begin{itemize}
@@ -91,7 +100,7 @@ When you persuade, bluff, or drop a catchphrase, roll +Wits.
     \item \textbf{7-9} -- They want something in return or remain suspicious.
 \end{itemize}
 
-\section*{\fontspec{TradeWinds-Regular.ttf}Ride or Slide}
+\section*{\fontspec{TradeWinds-Regular.ttf}Radical Escape}
 When you pull off a stunt or escape using vehicles, skates, or agility, roll +Style. On a 10+ choose one from below. On a 7-9 choose one from below, but you get a condition.
 \begin{itemize}
     \item You impress someone.
@@ -100,11 +109,12 @@ When you pull off a stunt or escape using vehicles, skates, or agility, roll +St
 \end{itemize}
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Team Up!}
-When you assist a teammate, combine powers, or do a signature team move, roll +Discipline.
+When you assist a teammate, combine your powers, or do a signature team move, roll +Discipline. On a hit, choose one of the following according to the narrative:
 \begin{itemize}
-    \item \textbf{10+} -- Perfect combo! Your teammate gets +1 forward.
-    \item \textbf{7-9} -- Your teammate gets +1 forward, but you get a condition.
+    \item You helped them, they get +1 forward.
+    \item You both deal harm.
 \end{itemize}
+On a 7-9 you sacrifice something for the move: Positioning, Ressources or concentration. 
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Blend In}
 When you try not to draw attention, roll + Style. On a 10+ you blend in. On a 7-9 choose one of the following:
@@ -133,12 +143,12 @@ It is important, that your investigations and their results are plausible and co
 When you train with your mentor, explain how and in what discipline roll +Discipline. On a 10+ choose two of the following. On a 7-9 choose one.
 \begin{itemize}
     \item You impress your mentor
-    \item Get +1 Team-Score
+    \item Get +1 Team Mojo
     \item Get +1 Forward
 \end{itemize}
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Huddle}
-When you discuss previous or upcoming adventures and play out your leading principles, add one to the Team-Score.
+When you play out your leading principles while discusssing previous or upcoming adventures, add one to the Team Mojo.
 %Lieber würfeln?
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Always a Little Smarter}
@@ -148,20 +158,20 @@ When you try to find out what's going on, roll +Wits. On a 10+ the GM answers yo
     \item How do we get out?
     \item What is a secret?
     \item In which area is the target?
-    \item What is a danger we are likely to face?
+    \item What danger we are likely to face?
 \end{itemize}
 On a miss, the target moves, information was wrong or an obstacles surfaces.
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Let's Roll!}
-When you move out of the hideout, roll. Add +1 for everything that gives you an advantage for this mission.
+When you move out of the hideout to go on a mission, roll. Add +1 for everything that gives you an advantage for this mission -- information, gear, contacts, etc.
 \begin{itemize}
     \item \textbf{10+} -- You are in a controlled situation when the action starts.
     \item \textbf{7-9} -- You are in a risky situation when the action starts.
     \item \textbf{6-} -- You are in a desperate situation when the action starts.
 \end{itemize}
 
-\chapter*{\fontspec{TradeWinds-Regular.ttf}Running the game}
-\section*{\fontspec{TradeWinds-Regular.ttf}Game structure}
+\chapter*{\fontspec{TradeWinds-Regular.ttf}Running the Game}
+\section*{\fontspec{TradeWinds-Regular.ttf}Game Structure}
 The structure of the game is seperated in to phases that correspond each to a different scenery.
 \begin{itemize}
     \item Inside -- Hideout: Training, Planning, Discussing, Family, Mentor
@@ -176,7 +186,7 @@ Like other games, Martial Mutant Misfitz can be a bit more fun, when you try to 
 \section*{\fontspec{TradeWinds-Regular.ttf}GM Moves}
 The GM has a seperate set of rules. They mostly come in play, when a player rolls a 6 or lower. There isn't necessarily a rule which of these moves has to be taken, except for "follow the narration".
 \begin{itemize}
-    \item Separate them
+    \item Separate them.
     \item Shift the odds.
     \item Reveal future badness (something is building up).
     \item Reveal off-screen badness (sirens, smoke, TV, radio, …).
@@ -191,6 +201,7 @@ The GM has a seperate set of rules. They mostly come in play, when a player roll
     \item Inflict harm or condition.
     \item Make them trade.
     \item Take away some of the mutants' stuff.
+    \item Decrease the Team Mojo.
 \end{itemize}
 
 \section*{\fontspec{TradeWinds-Regular.ttf}Agenda}
@@ -201,6 +212,21 @@ There are certain rules, that everyone at the table agrees to follow. Some point
     \item Make the mutants' lives chaotic and rad.
     \item Portrait the life of teenage outsiders.
 \end{itemize}
+
+\section*{\fontspec{TradeWinds-Regular.ttf}Team Mojo}
+The Team Mojo describes the coherence of the Team. Depending on the team coherence, assisting other team members, combining powers or team moves are becoming easier or harder. The Team Mojo ranges from -3 to 3. If the Team Mojo would be added while on 3, the player gets +1 forward. If the Team Mojo would be decreased under -3 a Team Rift occurs.
+
+\section*{\fontspec{TradeWinds-Regular.ttf}Team Rift}
+When the Team Mojo falls under -3, the team coherence is shattered. Nothing is coordinated and the team is being torn apart. This should have drastic consequences for the team in the narrative, such as being captured, seperated or worse.
+
+\chapter*{\fontspec{TradeWinds-Regular.ttf}Gamemasters Section}
+\section*{\fontspec{TradeWinds-Regular.ttf}Hideout vs. Action Dynamic}
+
+
+\section*{\fontspec{TradeWinds-Regular.ttf}Setting the Scene}
+To set the scene, try to invoke the feeling of a 90s action cartoon. That is being best done while describe the intro of your cartoon. When playing the first session or one shots, begin by playing a prepared rock song (Paul Gilbert is great for something like this) and start describing the logo of the cartoon and actions they take together. The intro then shows typical scenes in the lifes of each character. Go around the table and let each player introduce their character with a typical cartoon scene. When playing further sessions, you can let one, some, or all players describe some "last episode on"-bit.
+
+This can be expanded on by describing to commercial breaks (normally in combination with cliffhangers in the session / episode). The GM should set an example by explaining the first commercial. The themes usually follow commercial in kids programs: Action figures, sweets, drinks, toys, etc. Afterwards, the GM can then ask if somebody has an idea for a commercial, prompt them to do a commercial, or ask what a commercial for an action figure of their character would look like.
 
 \newpage
 %\begin{comment}
@@ -217,5 +243,13 @@ There are certain rules, that everyone at the table agrees to follow. Some point
 \input{playbooks/wildcard.tex}
 %\end{comment}
 \input{playbooks/teambook.tex}
+
+\chapter*{\fontspec{TradeWinds-Regular.ttf}Appendix N}
+\begin{itemize}
+    \item \textbf{Teenage Mutant Ninja Turtles}
+    \item \textbf{Street Sharks}
+    \item \textbf{Extreme Dinosaurs}
+    \item \textbf{Biker Mice from Mars}
+\end{itemize}
 
 \end{document}
